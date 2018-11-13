@@ -3,7 +3,7 @@ Generates a adjective+noun id
 
 ## Installation
 ```bash
-[sudo] npm install -g wordy-cli-id
+[sudo] npm install -g wordy-id-cli
 ```
 
 ## Usage
