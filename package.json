@@ -1,0 +1,28 @@
+{
+  "name": "wordy-id-cli",
+  "version": "1.0.0",
+  "description": "cli for generating a adjective-noun id",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "wordy-id": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabriski/wordy-id-cli.git"
+  },
+  "keywords": [
+    "id",
+    "generator",
+    "cli"
+  ],
+  "author": "nabriski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nabriski/wordy-id-cli/issues"
+  },
+  "homepage": "https://github.com/nabriski/wordy-id-cli#readme",
+  "dependencies": {}
+}
