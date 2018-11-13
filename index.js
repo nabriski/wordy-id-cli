@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 const fs = require("fs");
+const path = require("path");
 
-const adjectives    = fs.readFileSync("adjectives.txt",{encoding:"utf-8"}).split("\r\n");
-const nouns         = fs.readFileSync("nouns.txt",{encoding:"utf-8"}).split("\r\n");
+const realdir     = path.dirname(fs.realpathSync(__filename))
+const adjectives    = fs.readFileSync(path.join(realdir,"adjectives.txt"),{encoding:"utf-8"}).split("\r\n");
+const nouns         = fs.readFileSync(path.join(realdir,"nouns.txt"),{encoding:"utf-8"}).split("\r\n");
 
 
 const randItem = function(arr){
