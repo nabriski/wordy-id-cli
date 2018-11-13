@@ -1,6 +1,6 @@
 {
   "name": "wordy-id-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "cli for generating a adjective-noun id",
   "main": "index.js",
   "scripts": {
